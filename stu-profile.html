@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnly Profile</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="profile-page">
+        <header class="mb-4">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.svg" alt="Learnly" class="logo">
+                    Learnly
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lectures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teacher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main class="profile-settings">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center profile-picture-section">
+                        <img src="./images/pro-stu.svg" alt="Profile Picture" class="profile-picture">
+                        <h3 class="profile-name">Tasneem Sakr</h3>
+                    </div>
+                    <div class="col-md-8 profile-form">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username" value="Tasneem Sakr">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="currentPassword">Current Password</label>
+                                    <input type="password" class="form-control" id="currentPassword" value="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" value="TasneemSakr@gmail.com">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="newPassword">New Password</label>
+                                    <input type="password" class="form-control" id="newPassword" value="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="gender">Gender</label>
+                                    <select id="gender" class="form-control">
+                                        <option selected>Female</option>
+                                        <option>Male</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input type="password" class="form-control" id="confirmPassword" value="">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="birthday">Birthday</label>
+                                    <div class="d-flex">
+                                        <select class="form-control mr-1" id="birthdayDay">
+                                            <option selected>12</option>
+                                            <!-- other days -->
+                                        </select>
+                                        <select class="form-control mr-1" id="birthdayMonth">
+                                            <option selected>October</option>
+                                            <!-- other months -->
+                                        </select>
+                                        <select class="form-control" id="birthdayYear">
+                                            <option selected>1989</option>
+                                            <!-- other years -->
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="job">Job</label>
+                                    <input type="text" class="form-control" id="job" value="Physics Teacher">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="language">Language</label>
+                                    <select id="language" class="form-control">
+                                        <option selected>Arabic</option>
+                                        <!-- other languages -->
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="city">City</label>
+                                    <select id="city" class="form-control">
+                                        <option selected>Zagazig</option>
+                                        <!-- other cities -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="country">Country</label>
+                                    <select id="country" class="form-control">
+                                        <option selected>Egypt</option>
+                                        <!-- other countries -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="emailNotification" checked>
+                                    <label class="form-check-label" for="emailNotification">
+                                        Email notification
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="videoAutoplay">
+                                    <label class="form-check-label" for="videoAutoplay">
+                                        Video autoplay
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="mediaSensitive" checked>
+                                    <label class="form-check-label" for="mediaSensitive">
+                                        Inform me before showing media that maybe sensitive
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Save</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

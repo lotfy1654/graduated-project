@@ -302,39 +302,51 @@ $main-color: #184a8c;
     }
 }
 
-.student-lessons {
-    header {
-        background-color: hsl(201, 100%, 28%);
+header {
+    background-color: hsl(201, 100%, 28%);
+    color: #fff;
+    text-align: center;
+
+    nav {
+        height: 70px;
+    }
+    .navbar-brand {
         color: #fff;
-        text-align: center;
-        nav {
-            height: 70px;
+        img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
         }
-        .navbar-brand {
-            img {
-                width: 80px;
-                height: 80px;
-                object-fit: cover;
-            }
-        }
-        h1 {
-            font-size: 2em;
-            margin: 0;
-        }
-        ul {
-            width: 100%;
-            justify-content: flex-end;
-            .nav-link {
-                color: #fff !important;
-                font-size: 1.2em;
-                margin: 0 10px;
-                text-decoration: none;
-                &:hover {
-                    text-decoration: underline;
-                }
+    }
+    h1 {
+        font-size: 2em;
+        margin: 0;
+    }
+    ul {
+        width: 100%;
+        justify-content: flex-end;
+        .nav-link {
+            color: #fff !important;
+            font-size: 1.2em;
+            margin: 0 10px;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
             }
         }
     }
+    &.tran {
+        position: fixed;
+        width: 100%;
+        background-color: transparent;
+    }
+}
+
+body {
+    background-color: #f6f4f4;
+}
+
+.student-lessons {
     .lesson-header {
         display: flex;
         align-items: center;
@@ -517,12 +529,12 @@ $main-color: #184a8c;
     }
 }
 
-.quizzes-box-all{
+.quizzes-box-all {
     .quiz-title {
         font-size: 2rem;
         font-weight: bold;
         margin-bottom: 20px;
-        color: #763CF0;
+        color: #763cf0;
     }
     .quiz-card {
         flex-direction: row;
@@ -541,8 +553,268 @@ $main-color: #184a8c;
             font-size: 1.2rem;
             font-weight: bold;
         }
-        h5{
+        h5 {
             margin: 0;
+        }
+    }
+}
+
+.quizzes-box-all-page {
+    main {
+        margin-top: 20px;
+    }
+
+    .list-unstyled {
+        padding-left: 20px;
+    }
+
+    ul.list-unstyled li {
+        margin-bottom: 10px;
+    }
+}
+
+.profile-page {
+    .profile-settings {
+        border-radius: 10px;
+        padding: 20px 0;
+        background: linear-gradient(#004265 20%, #0082c7 100%, #92d9ff 100%);
+        .profile-picture-section {
+            .profile-picture {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+            }
+
+            .profile-name {
+                margin-top: 10px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #fff;
+            }
+        }
+
+        .profile-form {
+            .form-row {
+                margin-bottom: 15px;
+            }
+
+            // /* Define the color when the checkbox is checked */
+            // .form-check-input:checked + label::before {
+            //     content: '';
+            //     display: inline-block;
+            //     width: 16px;
+            //     height: 16px;
+            //     background-color: green; /* Change this to the desired color */
+            //     border: 1px solid black; /* Optional: Add a border */
+            //     margin-right: 5px;
+            //     vertical-align: middle;
+            // }
+
+            // /* Optional: Style the label text */
+            // label {
+            //     vertical-align: middle;
+            //     cursor: pointer;
+            // }
+
+            hr {
+                margin: 30px 0;
+            }
+
+            .form-check-label {
+                margin-left: 5px;
+            }
+            label {
+                color: #fff;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.parent-1 {
+    .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        height: 70vh;
+        overflow: hidden;
+        padding: 0 20px;
+    }
+
+    .img-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            overflow: hidden;
+            object-fit: contain;
+            width: 80%;
+            height: 400px;
+        }
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-body {
+        padding: 2rem;
+        p {
+            float: right;
+        }
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .card-text {
+        font-size: 3rem;
+        color: #6c757d;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-primary {
+        border-radius: 50%;
+        padding: 1rem;
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-primary .bi {
+        font-size: 1.5rem;
+    }
+}
+
+.parent-2 {
+    .profile-section {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile-img {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .student-info {
+        margin-left: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .one {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            h2 {
+                background-color: #005f91;
+                color: #fff;
+                padding: 10px 20px;
+                border-radius: 5px;
+            }
+            h3 {
+                border: 1px solid #005f91;
+                padding: 10px 20px;
+                border-radius: 5px;
+                background-color: #fff;
+                color: #005f91;
+            }
+        }
+        h4 {
+            margin-top: 25px;
+            text-align: center;
+            border: 1px solid #005f91;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #000;
+        }
+    }
+
+    .student-info h2,
+    .student-info h3 {
+        margin: 0;
+    }
+
+    .attendance-table {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .attendance-table th,
+    .attendance-table td {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .attendance-table .absent {
+        color: red;
+    }
+
+    .attendance-table .present {
+        color: green;
+    }
+
+    .attendance-table .good-grade {
+        color: green;
+    }
+
+    .attendance-table .average-grade {
+        color: orange;
+    }
+
+    .attendance-table .poor-grade {
+        color: red;
+    }
+
+    .navbar-nav a {
+        color: white;
+    }
+}
+
+.parent-0 {
+    background-image: url("../images/bac-home-login.svg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: calc(100vh);
+    padding: 15px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .log-box{
+        width: 50%;
+        margin: auto;
+        padding: 10px 25px;
+        // background-color: #fff;
+        backdrop-filter: blur(10px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 25px;
+        input{
+            width: 60%;
+        }
+        button{
+            align-self: flex-end;
+            border: 1px solid #fff;
+            padding: 5px 30px;
+            color: #fff;
         }
     }
 }

@@ -286,37 +286,50 @@
   border-radius: 5px;
 }
 
-.student-lessons header {
+header {
   background-color: hsl(201, 100%, 28%);
   color: #fff;
   text-align: center;
 }
-.student-lessons header nav {
+header nav {
   height: 70px;
 }
-.student-lessons header .navbar-brand img {
+header .navbar-brand {
+  color: #fff;
+}
+header .navbar-brand img {
   width: 80px;
   height: 80px;
   -o-object-fit: cover;
      object-fit: cover;
 }
-.student-lessons header h1 {
+header h1 {
   font-size: 2em;
   margin: 0;
 }
-.student-lessons header ul {
+header ul {
   width: 100%;
   justify-content: flex-end;
 }
-.student-lessons header ul .nav-link {
+header ul .nav-link {
   color: #fff !important;
   font-size: 1.2em;
   margin: 0 10px;
   text-decoration: none;
 }
-.student-lessons header ul .nav-link:hover {
+header ul .nav-link:hover {
   text-decoration: underline;
 }
+header.tran {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+}
+
+body {
+  background-color: #f6f4f4;
+}
+
 .student-lessons .lesson-header {
   display: flex;
   align-items: center;
@@ -487,7 +500,7 @@
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #763CF0;
+  color: #763cf0;
 }
 .quizzes-box-all .quiz-card {
   flex-direction: row;
@@ -509,4 +522,211 @@
 }
 .quizzes-box-all .quiz-card h5 {
   margin: 0;
+}
+
+.quizzes-box-all-page main {
+  margin-top: 20px;
+}
+.quizzes-box-all-page .list-unstyled {
+  padding-left: 20px;
+}
+.quizzes-box-all-page ul.list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.profile-page .profile-settings {
+  border-radius: 10px;
+  padding: 20px 0;
+  background: linear-gradient(#004265 20%, #0082c7 100%, #92d9ff 100%);
+}
+.profile-page .profile-settings .profile-picture-section .profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.profile-page .profile-settings .profile-picture-section .profile-name {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.profile-page .profile-settings .profile-form .form-row {
+  margin-bottom: 15px;
+}
+.profile-page .profile-settings .profile-form hr {
+  margin: 30px 0;
+}
+.profile-page .profile-settings .profile-form .form-check-label {
+  margin-left: 5px;
+}
+.profile-page .profile-settings .profile-form label {
+  color: #fff;
+}
+.profile-page .profile-settings .profile-form .btn {
+  width: 100%;
+}
+
+.parent-1 .card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  height: 70vh;
+  overflow: hidden;
+  padding: 0 20px;
+}
+.parent-1 .img-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-1 .img-box img {
+  overflow: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 80%;
+  height: 400px;
+}
+.parent-1 .card:hover {
+  transform: scale(1.05);
+}
+.parent-1 .card-body {
+  padding: 2rem;
+}
+.parent-1 .card-body p {
+  float: right;
+}
+.parent-1 .card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.parent-1 .card-text {
+  font-size: 3rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
+.parent-1 .btn-primary {
+  border-radius: 50%;
+  padding: 1rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-1 .btn-primary .bi {
+  font-size: 1.5rem;
+}
+
+.parent-2 .profile-section {
+  display: flex;
+  align-items: center;
+}
+.parent-2 .profile-img {
+  width: 150px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.parent-2 .student-info {
+  margin-left: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.parent-2 .student-info .one {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.parent-2 .student-info .one h2 {
+  background-color: #005f91;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.parent-2 .student-info .one h3 {
+  border: 1px solid #005f91;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #005f91;
+}
+.parent-2 .student-info h4 {
+  margin-top: 25px;
+  text-align: center;
+  border: 1px solid #005f91;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+.parent-2 .student-info h2,
+.parent-2 .student-info h3 {
+  margin: 0;
+}
+.parent-2 .attendance-table {
+  width: 100%;
+  margin-top: 20px;
+}
+.parent-2 .attendance-table th,
+.parent-2 .attendance-table td {
+  text-align: center;
+  padding: 10px;
+}
+.parent-2 .attendance-table .absent {
+  color: red;
+}
+.parent-2 .attendance-table .present {
+  color: green;
+}
+.parent-2 .attendance-table .good-grade {
+  color: green;
+}
+.parent-2 .attendance-table .average-grade {
+  color: orange;
+}
+.parent-2 .attendance-table .poor-grade {
+  color: red;
+}
+.parent-2 .navbar-nav a {
+  color: white;
+}
+
+.parent-0 {
+  background-image: url("../images/bac-home-login.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parent-0 .log-box {
+  width: 50%;
+  margin: auto;
+  padding: 10px 25px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.parent-0 .log-box input {
+  width: 60%;
+}
+.parent-0 .log-box button {
+  align-self: flex-end;
+  border: 1px solid #fff;
+  padding: 5px 30px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */

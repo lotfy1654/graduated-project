@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div class="student-lessons quizzes-box-all">
+    <div class="student-lessons quizzes-box-all-page">
         <header class="mb-4">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <a class="navbar-brand" href="#">
@@ -47,18 +47,67 @@
             <div class="d-flex justify-content-center">
                 <h2 class="quiz-title">Quizzes</h2>
             </div>
-            <div class="row mt-4">
-                <!-- Quiz Cards -->
-                <div class="col-md-3 mb-3">
-                    <div class="card quiz-card" data-toggle="modal" data-target="#quizModal">
-                        <img src="./images/quz-icon.svg" class="card-img-top" alt="Quiz 1">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Quiz 1</h5>
-                        </div>
+            <main>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ol>
+                            <li>A light-year is a unit of .......
+                                <ul class="list-unstyled">
+                                    <li><input type="radio" name="q1"> a. Time</li>
+                                    <li><input type="radio" name="q1"> b. Mass</li>
+                                    <li><input type="radio" name="q1"> c. Distance</li>
+                                    <li><input type="radio" name="q1"> d. Energy</li>
+                                </ul>
+                            </li>
+                            <li>Newton-second is the unit of .......
+                                <ul class="list-unstyled">
+                                    <li><input type="radio" name="q2"> a. Velocity</li>
+                                    <li><input type="radio" name="q2"> b. Angular momentum</li>
+                                    <li><input type="radio" name="q2"> c. Momentum</li>
+                                    <li><input type="radio" name="q2"> d. Energy</li>
+                                </ul>
+                            </li>
+                            <li>The unit of power is ........
+                                <ul class="list-unstyled">
+                                    <li><input type="radio" name="q3"> a. Joule</li>
+                                    <li><input type="radio" name="q3"> b. Joule per second only</li>
+                                    <li><input type="radio" name="q3"> c. Joule per second and watt both</li>
+                                    <li><input type="radio" name="q3"> d. Only watt</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="col-md-6">
+                        <ol start="4">
+                            <li>A cube has a numerically equal volume and surface area. The volume of such a cube
+                                is............
+                                <ul class="list-unstyled">
+                                    <li><input type="radio" name="q4"> a. 216 units</li>
+                                    <li><input type="radio" name="q4"> b. 1000 units</li>
+                                    <li><input type="radio" name="q4"> c. 2000 units</li>
+                                    <li><input type="radio" name="q4"> d. 3000 units</li>
+                                </ul>
+                            </li>
+                            <li>Newton-second is the unit of .......
+                                <ul class="list-unstyled">
+                                    <li><input type="radio" name="q5"> a. Velocity</li>
+                                    <li><input type="radio" name="q5"> b. Angular momentum</li>
+                                    <li><input type="radio" name="q5"> c. Momentum</li>
+                                    <li><input type="radio" name="q5"> d. Energy</li>
+                                </ul>
+                            </li>
+                            <li>A light-year is a unit of ........
+                                <ul class="list-unstyled">
+                                    <li><input type="radio" name="q6"> a. Time</li>
+                                    <li><input type="radio" name="q6"> b. Mass</li>
+                                    <li><input type="radio" name="q6"> c. Distance</li>
+                                    <li><input type="radio" name="q6"> d. Energy</li>
+                                </ul>
+                            </li>
+                        </ol>
                     </div>
                 </div>
-                <!-- Repeat similar blocks for other quizzes -->
-            </div>
+            </main>
         </div>
     </div>
 
