@@ -1,0 +1,512 @@
+.home-login-register {
+  background-image: url("../images/bac-home-login.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 15px 0 0;
+}
+.home-login-register .nav-box-head {
+  height: 100px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 25px;
+}
+.home-login-register .nav-box-head .first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-login-register .nav-box-head .first img {
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-login-register .nav-box-head .first h2 {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #fff;
+  margin-left: 10px;
+  padding: 0 25px;
+}
+.home-login-register .nav-box-head .second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-login-register .nav-box-head .second a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: #184a8c;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+.home-login-register .nav-box-head .second a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.home-login-register .center-box-all {
+  height: calc(90vh - 100px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 25px 20px;
+  border-radius: 5px;
+}
+.home-login-register .center-box-all .left-box {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+}
+.home-login-register .center-box-all .left-box h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.home-login-register .center-box-all .left-box h1 span.one {
+  color: #000;
+  display: block;
+}
+.home-login-register .center-box-all .left-box h1 span.two {
+  color: #184a8c;
+}
+.home-login-register .center-box-all .left-box p {
+  font-size: 20px;
+  width: 80%;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 20px;
+}
+.home-login-register .center-box-all .left-box button {
+  padding: 10px 25px;
+  background-color: #184a8c;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid transparent;
+}
+.home-login-register .center-box-all .left-box button:hover {
+  background-color: #fff;
+  color: #184a8c;
+  border: 1px solid #184a8c;
+}
+.home-login-register .center-box-all .right-box {
+  width: calc(100% - 500px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-login-register .center-box-all .right-box .box-all-items {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-login-register .center-box-all .right-box .box-all-items .one {
+  gap: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.home-login-register .center-box-all .right-box .box-all-items .one .item {
+  width: 33.3333333333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px 10px;
+}
+.home-login-register .center-box-all .right-box .box-all-items .one .item img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home-login-register .center-box-all .right-box .box-all-items .one .item p {
+  font-size: 17px;
+  color: #000;
+  margin: 0;
+  margin: 10px 0 0;
+}
+
+.student-home header {
+  background-color: hsl(201, 100%, 28%);
+  color: #fff;
+  text-align: center;
+}
+.student-home header nav {
+  height: 70px;
+}
+.student-home header .navbar-brand img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.student-home header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.student-home header ul {
+  width: 100%;
+  justify-content: flex-end;
+}
+.student-home header ul .nav-link {
+  color: #fff !important;
+  font-size: 1.2em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.student-home header ul .nav-link:hover {
+  text-decoration: underline;
+}
+.student-home main .hero {
+  width: 90%;
+  margin: auto;
+}
+.student-home main .hero .box-all-head-two {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.student-home main .hero .box-all-head-two .one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.student-home main .hero .box-all-head-two .one h1 {
+  font-size: 2.5em;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+.student-home main .hero .box-all-head-two .one p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #000;
+  width: 80%;
+  text-align: left;
+}
+.student-home main .hero .box-all-head-two .img-box img {
+  width: 300px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.student-home .hero .hero-buttons {
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  align-items: center;
+}
+.student-home .hero .hero-buttons .item {
+  width: 33.3333333333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.student-home .hero .hero-buttons .item img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.student-home .hero .hero-buttons button {
+  padding: 10px 20px;
+  margin: 5px;
+}
+.student-home .unique-features {
+  width: 90%;
+  margin: auto;
+}
+.student-home .unique-features h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.student-home .unique-features .feature-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.student-home .unique-features p {
+  font-size: 1em;
+}
+.student-home .unique-features .all-item-six .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.student-home .unique-features .all-item-six .item {
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 90%;
+}
+.student-home .course-info {
+  width: 90%;
+  margin: auto;
+}
+.student-home .course-info .card {
+  background-color: #efefef;
+}
+.student-home .course-info .card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+.student-home .course-info .card p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.student-home .course-info .card button {
+  padding: 10px 20px;
+  color: #000;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.student-lessons header {
+  background-color: hsl(201, 100%, 28%);
+  color: #fff;
+  text-align: center;
+}
+.student-lessons header nav {
+  height: 70px;
+}
+.student-lessons header .navbar-brand img {
+  width: 80px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.student-lessons header h1 {
+  font-size: 2em;
+  margin: 0;
+}
+.student-lessons header ul {
+  width: 100%;
+  justify-content: flex-end;
+}
+.student-lessons header ul .nav-link {
+  color: #fff !important;
+  font-size: 1.2em;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.student-lessons header ul .nav-link:hover {
+  text-decoration: underline;
+}
+.student-lessons .lesson-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 90%;
+}
+.student-lessons .lesson-header img {
+  width: 50% px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.student-lessons .lesson-header h1 {
+  font-size: 2em;
+  color: #000;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.student-lessons .lesson-header h1 span {
+  margin: 15px 0 0;
+}
+.student-lessons .lesson-header .one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.student-lessons .lesson-header .btn-primary {
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: center;
+}
+.student-lessons .lesson-tabs {
+  width: 90%;
+  margin: auto;
+}
+.student-lessons .lesson-tabs .nav-tabs .nav-link {
+  font-size: 1.1em;
+}
+.student-lessons .lesson-tabs .nav-tabs .nav-link.active {
+  border-bottom: 3px solid #007bff;
+}
+.student-lessons .lesson-tabs .card {
+  width: 100%;
+}
+.student-lessons .lesson-tabs .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9ecef;
+}
+.student-lessons .lesson-tabs .card-body ul {
+  list-style: none;
+  padding: 0;
+}
+.student-lessons .lesson-tabs .card-body ul li {
+  padding: 5px 0;
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+.student-lessons .lesson-tabs .card-body ul li .badge-success {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.student-lessons .lesson-tabs .box-all-items {
+  gap: 20px;
+  position: relative;
+}
+.student-lessons .lesson-tabs .box-all-items .overlay {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.student-lessons .lesson-tabs .box-all-items .overlay i {
+  font-size: 3em;
+}
+.student-lessons .lesson-tabs .box-all-items video {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.student-lessons .lesson-tabs .box-all-items .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.student-lessons .lesson-tabs .box-all-items .card-body p,
+.student-lessons .lesson-tabs .box-all-items .card-body h5 {
+  margin: 0;
+}
+.student-lessons .lesson-tabs .box-all-items.quizzes-box .card {
+  cursor: pointer;
+}
+.student-lessons .lesson-tabs .box-all-items.quizzes-box .card img {
+  width: 100px;
+  margin: 50px 0 0;
+}
+.student-lessons .lesson-tabs .box-all-items.quizzes-box .card .card-body {
+  padding: 10px;
+  background-color: #d9d9d9;
+  justify-content: center;
+  gap: 20px;
+}
+.student-lessons .lesson-tabs .box-all-items.quizzes-box .card .card-body .card-title {
+  position: absolute;
+  background-color: #005f91;
+  margin: 0;
+  border-radius: 5px;
+  padding: 6px 35px;
+  color: #fff;
+  top: 7px;
+  left: 5px;
+}
+.student-lessons .lesson-tabs .box-all-items.quizzes-box .card .card-body h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.student-lessons .lesson-tabs .box-all-items.quizzes-box .card .card-body .card-text {
+  color: #005f91;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subscription-card {
+  position: relative;
+  border: none;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+}
+.subscription-card .close-btn {
+  border: none;
+  font-size: 1.2rem;
+}
+.subscription-card .close-btn:hover {
+  color: #dc3545;
+}
+.subscription-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.subscription-card .card-subtitle {
+  font-size: 1.2rem;
+}
+.subscription-card .list-unstyled {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.subscription-card .list-unstyled li {
+  margin-bottom: 0.5rem;
+}
+.subscription-card .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.quizzes-box-all .quiz-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #763CF0;
+}
+.quizzes-box-all .quiz-card {
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.quizzes-box-all .quiz-card:hover {
+  transform: scale(1.05);
+}
+.quizzes-box-all .quiz-card .card-img-top {
+  width: 45%;
+  border: none !important;
+}
+.quizzes-box-all .quiz-card .card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.quizzes-box-all .quiz-card h5 {
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */

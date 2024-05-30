@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnly - Lessons</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="student-lessons">
+        <header class="mb-4">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.svg" alt="Learnly" class="logo">
+                    Learnly
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Lectures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Teacher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <main>
+            <section class="lesson-header text-center mb-5">
+                <div class="one">
+                    <h1>Select your Lessons:
+                        <br />
+                        <span id="subject-title">Physics</span>
+                    </h1>
+                    <button class="btn btn-primary shadow">Start studying</button>
+                </div>
+                <img src="./images/les-1.svg" alt="Subject Image" class="subject-image mt-3">
+            </section>
+
+            <section class="lesson-tabs">
+                <ul class="nav nav-tabs mb-4" id="lessonTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="curriculum-tab" data-toggle="tab" href="#curriculum" role="tab"
+                            aria-controls="curriculum" aria-selected="true">Curriculum</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="final-review-tab" data-toggle="tab" href="#final-review" role="tab"
+                            aria-controls="final-review" aria-selected="false">Final review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="quizzes-tab" data-toggle="tab" href="#quizzes" role="tab"
+                            aria-controls="quizzes" aria-selected="false">Quizzes</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="lessonTabContent">
+                    <div class="tab-pane fade show active" id="curriculum" role="tabpanel"
+                        aria-labelledby="curriculum-tab">
+                        <div class="accordion" id="lessonAccordion">
+                            <div class="card">
+                                <div class="card-header" id="moduleOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse"
+                                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            1- Module one: chapter one: electric current, Ohm's law and Kirchhoff's laws
+                                        </button>
+                                    </h2>
+                                    <button class="btn btn-primary float-right">Start studying</button>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="moduleOne"
+                                    data-parent="#lessonAccordion">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                <p>
+                                                    <i class="bi bi-play-circle"></i>
+                                                    Electric current intensity
+                                                </p>
+                                                <span class="badge badge-success">Free</span>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="bi bi-play-circle"></i>
+                                                    Voltage difference and Ohm's law
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="bi bi-play-circle"></i>
+                                                    Electrical resistance and specific resistance
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="bi bi-play-circle"></i>
+                                                    Graphic relationships
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="bi bi-play-circle"></i>
+                                                    Training
+                                                </p>
+                                            </li>
+                                            <li>
+                                                <p>
+                                                    <i class="bi bi-play-circle"></i>
+                                                    Ohm's closed-circuit law< </p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Additional modules as needed -->
+
+                        </div>
+                    </div>
+                    <div class="tab-pane fade final-review-tab" id="final-review" role="tabpanel"
+                        aria-labelledby="final-review-tab">
+                        <div class="d-flex justify-content-between box-all-items">
+                            <div class="card mb-3" data-toggle="modal" data-target="#videoModal"
+                                data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                                <div class="overlay">
+                                    <i class="bi bi-play-circle"></i>
+                                </div>
+                                <video width="100%" class="card-img-top" alt="Lesson Video">
+                                    <source id="videoSource" src="https://www.w3schools.com/html/mov_bbb.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="card-body">
+                                    <h5 class="card-title">Final revision - Physics</h5>
+                                    <p class="card-text"><i class="fas fa-lock"></i></p>
+                                </div>
+                            </div>
+                            <div class="card mb-3" data-toggle="modal" data-target="#videoModal"
+                                data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                                <div class="overlay">
+                                    <i class="bi bi-play-circle"></i>
+                                </div>
+                                <video width="100%" class="card-img-top" alt="Lesson Video">
+                                    <source id="videoSource" src="https://www.w3schools.com/html/mov_bbb.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="card-body">
+                                    <h5 class="card-title">Final revision - Physics</h5>
+                                    <p class="card-text"><i class="fas fa-lock"></i></p>
+                                </div>
+                            </div>
+                            <div class="card mb-3" data-toggle="modal" data-target="#videoModal"
+                                data-video="https://www.w3schools.com/html/mov_bbb.mp4">
+                                <div class="overlay">
+                                    <i class="bi bi-play-circle"></i>
+                                </div>
+                                <video width="100%" class="card-img-top" alt="Lesson Video">
+                                    <source id="videoSource" src="https://www.w3schools.com/html/mov_bbb.mp4"
+                                        type="video/mp4">
+                                </video>
+                                <div class="card-body">
+                                    <h5 class="card-title">Final revision - Physics</h5>
+                                    <p class="card-text"><i class="fas fa-lock"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-primary">Lesson review</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="quizzes" role="tabpanel" aria-labelledby="quizzes-tab">
+                        <div class="d-flex justify-content-between box-all-items quizzes-box">
+                            <div class="card mb-3 text-center">
+                                <div>
+                                    <img src="./images/quiz-1.svg" class="card-img-top" alt="Quizzes Image">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Question Bank</h5>
+                                    <p class="card-text">520 Question</p>
+                                    <p class="card-text"><i class="bi bi-lock"></i></p>
+                                </div>
+                            </div>
+                            <div class="card mb-3 text-center">
+                                <div>
+                                    <img src="./images/quiz-2.svg" class="card-img-top" alt="Quizzes Image">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Quizzes</h5>
+                                    <p class="card-text">All Quizzes after every lesson</p>
+                                </div>
+                            </div>
+                            <div class="card mb-3 text-center">
+                                <div>
+                                    <img src="./images/quiz-3.svg" class="card-img-top"
+                                        alt="Auto-generate Questions Image">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">Auto-generate questions</h5>
+                                    <p class="card-text">Test yourself</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="videoModalLabel">Video Player</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <video id="modalVideo" width="100%" controls>
+                        <source id="modalVideoSource" src="" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button to trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#subscriptionModal">
+        Subscribe Now
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="subscriptionModal" tabindex="-1" aria-labelledby="subscriptionModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="card subscription-card p-4">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-light close-btn" data-dismiss="modal"><i
+                                        class="fas fa-times"></i></button>
+                            </div>
+                            <h4 class="card-title text-danger">Subscribe now</h4>
+                            <h5 class="card-subtitle mb-4">And get the:</h5>
+                            <ul class="list-unstyled">
+                                <li>Explanation of all courses</li>
+                                <li>Final reviews of the strongest teachers</li>
+                                <li>Training exam forms from certified sources</li>
+                                <li>A training bank for each subject</li>
+                                <li>Live broadcast of reviews in all materials</li>
+                            </ul>
+                            <p class="price">
+                                <span class="text-danger">EGP 200</span> / academic year
+                                <br>
+                                Instead of <span class="text-muted"><s>499 EGP</s></span>
+                            </p>
+                            <button class="btn btn-danger btn-block">Subscribe now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
