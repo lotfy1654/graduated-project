@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="mb-4">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.svg" alt="Learnly" class="logo">
+                Learnly
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lectures</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Teacher</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="techer-7">
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <div class="card-body text-center">
+                            <img src="./images/tech-5.svg" class="card-img-top mb-2" alt="Upload PDF">
+                            <button class="btn btn-primary btn-block">Upload</button>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="card-body text-center">
+                            <input type="number" class="form-control mb-2" value="10" min="1">
+                            <img src="./images/tech-9.svg" class="card-img-top mb-2" alt="Generate Quiz">
+                            <button class="btn btn-secondary btn-block">Generate</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column -->
+                <div class="col-md-9">
+                    <h2 class="text-primary text-center">Quiz 1</h2>
+                    <h4 class="text-purple">Questions</h4>
+                    <ul class="list-group">
+                        <!-- Question 1 -->
+                        <li class="list-group-item">
+                            <p>1- A light-year is a unit of ........</p>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="q1a" value="a">
+                                <label class="form-check-label" for="q1a">a. Time</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="q1b" value="b">
+                                <label class="form-check-label" for="q1b">b. Mass</label>
+                            </div>
+                            <div class="form-check correct-answer">
+                                <input class="form-check-input " type="radio" name="question1" id="q1c" value="c">
+                                <label class="form-check-label" for="q1c">c. Distance</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="question1" id="q1d" value="d">
+                                <label class="form-check-label" for="q1d">d. Energy</label>
+                            </div>
+                        </li>
+                        <!-- Repeat similar blocks for other questions -->
+                    </ul>
+                    <div class="text-right mt-3">
+                        <button class="btn btn-danger">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

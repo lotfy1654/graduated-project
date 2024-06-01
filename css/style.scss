@@ -645,6 +645,19 @@ body {
         padding: 0 20px;
     }
 
+    .qoute-box {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 0 0;
+        p {
+            font-size: 1.5rem;
+            color: #6c757d;
+            text-align: center;
+        }
+    }
+
     .img-box {
         width: 100%;
         display: flex;
@@ -796,7 +809,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    .log-box{
+    .log-box {
         width: 50%;
         margin: auto;
         padding: 10px 25px;
@@ -807,14 +820,452 @@ body {
         justify-content: center;
         flex-direction: column;
         gap: 25px;
-        input{
+        input {
             width: 60%;
         }
-        button{
+        button {
             align-self: flex-end;
             border: 1px solid #fff;
             padding: 5px 30px;
             color: #fff;
+        }
+    }
+}
+
+.techer-box-1 {
+    h2.text {
+        color: #9676db;
+        text-transform: capitalize;
+    }
+
+    h4 {
+        text-transform: capitalize;
+        color: #a89b9b;
+    }
+
+    .btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        border: 1px solid #000;
+        border-radius: 5px;
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+        }
+        i {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+        }
+        img {
+            width: 50px;
+            margin: 10px 0;
+        }
+        h5 {
+            background-color: #ddd;
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+        p {
+            align-self: flex-end;
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+        color: #6c757d;
+        margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+        border-radius: 50%;
+        padding: 0.5rem;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-center {
+        text-align: center;
+        width: 100%;
+        font-size: 19px;
+    }
+
+    .btn-primary .bi {
+        font-size: 1.5rem;
+    }
+
+    .list-group-item {
+        display: flex;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+
+    .list-group-item img {
+        border: 2px solid #dee2e6;
+        padding: 0.25rem;
+        height: 80px;
+        width: 80px;
+    }
+
+    .list-group-item span {
+        font-size: 1rem;
+    }
+
+    input.form-control {
+        flex: 1;
+        margin-right: 0.5rem;
+    }
+}
+
+.techer-lessons {
+    .card {
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    .card-body {
+        padding: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-text {
+        font-size: 0.875rem;
+        color: #6c757d;
+        margin-bottom: 1rem;
+    }
+
+    .btn-primary {
+        border-radius: 50%;
+        padding: 0.5rem;
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-primary .bi {
+        font-size: 1.5rem;
+    }
+}
+
+.techer-3 {
+    .container {
+        margin-top: 2rem;
+    }
+
+    h2 {
+        font-family: "Brush Script MT", cursive;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    video {
+        margin-bottom: 1rem;
+    }
+
+    .btn-light {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    .btn-danger {
+        font-size: 1.25rem;
+    }
+}
+
+.techer-4 {
+    .container {
+        margin-top: 2rem;
+    }
+
+    .welcome-text {
+        color: #6a1b9a;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    .lesson-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .lesson-item {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 1rem;
+        text-align: center;
+        img {
+            width: 80px;
+        }
+    }
+
+    .upload-btn {
+        display: block;
+        margin: 1rem auto 0;
+    }
+
+    .progress-list {
+        margin-top: 2rem;
+    }
+
+    .progress-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .progress-item img {
+        width: 50px;
+        height: 50px;
+        margin-right: 1rem;
+    }
+
+    .progress-item span {
+        flex-grow: 1;
+    }
+
+    .progress {
+        flex-grow: 2;
+        margin-right: 1rem;
+    }
+
+    .progress-bar {
+        text-align: right;
+        padding-right: 5px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .bi-arrow-repeat {
+        cursor: pointer;
+        color: #6c757d;
+    }
+}
+
+.techer-5 {
+    .welcome-text {
+        color: #6a1b9a;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    .lesson-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 2rem;
+    }
+
+    .text-left {
+        color: #6a1b9a;
+    }
+
+    .lesson-item {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 1rem;
+        text-align: center;
+        p {
+            color: #005f91;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .quiz-list {
+        margin-top: 2rem;
+    }
+
+    .quiz-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+    }
+
+    .quiz-icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 1rem;
+    }
+
+    .quiz-item span {
+        flex-grow: 1;
+    }
+
+    hr {
+        border: 1px solid #ddd;
+    }
+}
+
+.techer-6 {
+    .container {
+        margin-top: 2rem;
+    }
+
+    .information-title,
+    .students-title {
+        color: #0d6efd;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .information-content {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 2rem;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #ff0000;
+    }
+
+    .student-list {
+        margin-top: 2rem;
+    }
+
+    .student-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .student-img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 1rem;
+    }
+
+    .student-info {
+        flex-grow: 1;
+    }
+
+    .student-info h4 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .student-info p {
+        margin: 0;
+        font-size: 1rem;
+        color: #ff0000;
+    }
+
+    .progress {
+        margin-top: 0.5rem;
+        height: 20px;
+    }
+
+    .progress-bar {
+        background-color: #ff0000;
+        font-size: 20px;
+    }
+
+    hr {
+        border: 1px solid #ddd;
+    }
+}
+
+$primary-color: #0277bd;
+$secondary-color: #7e57c2;
+$background-color: #f5f5f5;
+$text-color: #333;
+$button-color: #d32f2f;
+.techer-7 {
+    $text-primary: #007bff;
+    $text-purple: #6f42c1;
+
+    .card {
+        &.mb-3 {
+            margin-bottom: 1.5rem;
+        }
+        .card-body {
+            .btn-block {
+                display: block;
+                width: 100%;
+            }
+            .form-control {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+    .correct-answer::after {
+        content: "✓ ";
+        color: green;
+        font-weight: bold;
+    }
+    .incorrect-answer::after {
+        content: "✗ ";
+        color: red;
+        font-weight: bold;
+    }
+    .list-group-item {
+        margin-bottom: 1rem;
+        .form-check {
+            margin-bottom: 0.5rem;
         }
     }
 }
