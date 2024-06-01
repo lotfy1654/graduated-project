@@ -1099,4 +1099,48 @@ body {
 }
 .techer-7 .list-group-item .form-check {
   margin-bottom: 0.5rem;
+}
+
+.register .bg-cover {
+  background-size: cover !important;
+  background-position: center !important;
+}
+.register .box-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.register .bg-light {
+  background-color: #fff !important;
+}
+.register form .btn {
+  margin-bottom: 10px;
+}
+.register form .form-group {
+  margin-bottom: 15px;
+}
+.register form .form-check-label {
+  margin-left: 5px;
+}
+.register form .form-check-input {
+  margin-top: 0.3rem;
+}
+.register .text-muted {
+  color: #6c757d !important;
+}
+.register .links-right ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0 0 0;
+}
+.register .links-right ul li a {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+}
+.register .links-right ul li a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=style.css.map */
